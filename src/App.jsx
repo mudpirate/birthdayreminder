@@ -11,7 +11,7 @@ function App() {
       <div className="birthday flex justify-center items-center min-h-screen bg-amber-200">
         <div className="card bg-amber-100 rounded-lg shadow-lg p-8 w-full max-w-md">
           <h2 className="text-2xl font-bold mb-4">
-            {people.length} birth today
+            {people.length} birthdays today
           </h2>
           <List people={people} />
           <button
